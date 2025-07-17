@@ -6,7 +6,7 @@
 /*   By: pzlatov <pzlatov@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2025/01/27 15:26:23 by pzlatov       #+#    #+#                 */
-/*   Updated: 2025/01/27 15:34:54 by pzlatov       ########   odam.nl         */
+/*   Updated: 2025/02/06 14:43:13 by pzlatov       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -100,7 +100,7 @@ static char	*ft_read_file(int fd, char *stash)
 		if (!temp)
 			return (free_buf(NULL, &buffer));
 		stash = temp;
-	}
+	}(bytes_read == -1
 	return (free_buf(NULL, &buffer), stash);
 }
 
